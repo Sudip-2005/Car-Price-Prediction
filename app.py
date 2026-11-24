@@ -16,7 +16,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
-DATA = "data/cardekho_imputated.csv"
+DATA = "Data/cardekho_imputated.csv"
 CATEGORICAL = ["model", "seller_type", "fuel_type", "transmission_type"]
 NUMERIC = ["vehicle_age", "km_driven", "mileage", "engine", "max_power", "seats"]
 TARGET = "selling_price"
